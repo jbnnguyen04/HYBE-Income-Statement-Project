@@ -1,0 +1,72 @@
+- Tailwind
+
+{ 'resolution_blue': { DEFAULT: '#292383', 100: '#08071b', 200: '#110e35', 300: '#191550', 400: '#211c6a', 500: '#292383', 600: '#3b32bb', 700: '#655dd4', 800: '#9893e2', 900: '#ccc9f1' }, 'mauve': { DEFAULT: '#EDC0F5', 100: '#420c4c', 200: '#851898', 300: '#c329de', 400: '#d875ea', 500: '#edc0f5', 600: '#f1cef7', 700: '#f5daf9', 800: '#f8e6fb', 900: '#fcf3fd' }, 'iris': { DEFAULT: '#4A43CA', 100: '#0d0c2a', 200: '#1b1854', 300: '#28247f', 400: '#3630a9', 500: '#4a43ca', 600: '#6f69d5', 700: '#938fdf', 800: '#b7b4ea', 900: '#dbdaf4' }, 'midnight_blue': { DEFAULT: '#1C1973', 100: '#060517', 200: '#0b0a2d', 300: '#110f44', 400: '#16145a', 500: '#1c1973', 600: '#2b26ae', 700: '#4d48d7', 800: '#8885e4', 900: '#c4c2f2' }, 'oxford_blue': { DEFAULT: '#04052D', 100: '#010109', 200: '#020213', 300: '#02031c', 400: '#030426', 500: '#04052d', 600: '#0b0d83', 700: '#1316d8', 800: '#5659f0', 900: '#abacf8' } }
+
+- CSV
+
+292383,EDC0F5,4A43CA,1C1973,04052D
+
+- With #
+
+#292383, #EDC0F5, #4A43CA, #1C1973, #04052D
+
+- Array
+
+["292383","EDC0F5","4A43CA","1C1973","04052D"]
+
+- Object
+
+{"Resolution Blue":"292383","Mauve":"EDC0F5","Iris":"4A43CA","Midnight blue":"1C1973","Oxford Blue":"04052D"}
+
+- Extended Array
+
+[{"name":"Resolution Blue","hex":"292383","rgb":[41,35,131],"cmyk":[69,73,0,49],"hsb":[244,73,51],"hsl":[244,58,33],"lab":[21,34,-53]},{"name":"Mauve","hex":"EDC0F5","rgb":[237,192,245],"cmyk":[3,22,0,4],"hsb":[291,22,96],"hsl":[291,73,86],"lab":[83,25,-20]},{"name":"Iris","hex":"4A43CA","rgb":[74,67,202],"cmyk":[63,67,0,21],"hsb":[243,67,79],"hsl":[243,56,53],"lab":[37,43,-69]},{"name":"Midnight blue","hex":"1C1973","rgb":[28,25,115],"cmyk":[76,78,0,55],"hsb":[242,78,45],"hsl":[242,64,27],"lab":[16,33,-51]},{"name":"Oxford Blue","hex":"04052D","rgb":[4,5,45],"cmyk":[91,89,0,82],"hsb":[239,91,18],"hsl":[239,84,10],"lab":[3,11,-24]}]
+
+- XML
+
+<palette>
+  <color name="Resolution Blue" hex="292383" r="41" g="35" b="131" />
+  <color name="Mauve" hex="EDC0F5" r="237" g="192" b="245" />
+  <color name="Iris" hex="4A43CA" r="74" g="67" b="202" />
+  <color name="Midnight blue" hex="1C1973" r="28" g="25" b="115" />
+  <color name="Oxford Blue" hex="04052D" r="4" g="5" b="45" />
+</palette>
+
+
+
+------
+
+
+- Tailwind
+
+{ 'rose_quartz': { DEFAULT: '#B0AABE', 100: '#222029', 200: '#453f52', 300: '#675f7b', 400: '#8b839f', 500: '#b0aabe', 600: '#c1bccc', 700: '#d0cdd8', 800: '#e0dee5', 900: '#efeef2' }, 'brown_sugar': { DEFAULT: '#A76548', 100: '#22140e', 200: '#43281d', 300: '#653c2b', 400: '#86513a', 500: '#a76548', 600: '#be8268', 700: '#cea18d', 800: '#dfc0b3', 900: '#efe0d9' }, 'champagne_pink': { DEFAULT: '#FBE1CE', 100: '#552707', 200: '#aa4f0e', 300: '#ed7926', 400: '#f4ad7b', 500: '#fbe1ce', 600: '#fce8d9', 700: '#fdeee3', 800: '#fdf3ec', 900: '#fef9f6' }, 'melon': { DEFAULT: '#ECB19C', 100: '#421b0d', 200: '#843619', 300: '#c65026', 400: '#e07e5a', 500: '#ecb19c', 600: '#f0c1b0', 700: '#f4d1c4', 800: '#f7e0d8', 900: '#fbf0eb' }, 'columbia_blue': { DEFAULT: '#C2D3DE', 100: '#1d2c36', 200: '#3b596d', 300: '#5885a3', 400: '#8dadc2', 500: '#c2d3de', 600: '#cfdce5', 700: '#dbe5ec', 800: '#e7eef2', 900: '#f3f6f9' } }
+
+- CSV
+
+B0AABE,A76548,FBE1CE,ECB19C,C2D3DE
+
+- With #
+
+#B0AABE, #A76548, #FBE1CE, #ECB19C, #C2D3DE
+
+- Array
+
+["B0AABE","A76548","FBE1CE","ECB19C","C2D3DE"]
+
+- Object
+
+{"Rose quartz":"B0AABE","Brown sugar":"A76548","Champagne pink":"FBE1CE","Melon":"ECB19C","Columbia blue":"C2D3DE"}
+
+- Extended Array
+
+[{"name":"Rose quartz","hex":"B0AABE","rgb":[176,170,190],"cmyk":[7,11,0,25],"hsb":[258,11,75],"hsl":[258,13,71],"lab":[71,6,-9]},{"name":"Brown sugar","hex":"A76548","rgb":[167,101,72],"cmyk":[0,40,57,35],"hsb":[18,57,65],"hsl":[18,40,47],"lab":[49,24,28]},{"name":"Champagne pink","hex":"FBE1CE","rgb":[251,225,206],"cmyk":[0,10,18,2],"hsb":[25,18,98],"hsl":[25,85,90],"lab":[91,6,13]},{"name":"Melon","hex":"ECB19C","rgb":[236,177,156],"cmyk":[0,25,34,7],"hsb":[16,34,93],"hsl":[16,68,77],"lab":[77,19,19]},{"name":"Columbia blue","hex":"C2D3DE","rgb":[194,211,222],"cmyk":[13,5,0,13],"hsb":[204,13,87],"hsl":[204,30,82],"lab":[84,-4,-7]}]
+
+- XML
+
+<palette>
+  <color name="Rose quartz" hex="B0AABE" r="176" g="170" b="190" />
+  <color name="Brown sugar" hex="A76548" r="167" g="101" b="72" />
+  <color name="Champagne pink" hex="FBE1CE" r="251" g="225" b="206" />
+  <color name="Melon" hex="ECB19C" r="236" g="177" b="156" />
+  <color name="Columbia blue" hex="C2D3DE" r="194" g="211" b="222" />
+</palette>
